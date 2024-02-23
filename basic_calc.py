@@ -1,0 +1,31 @@
+a=int(input())
+output=0
+if(a==1):
+    b=int(input())
+    c=int(input())
+    output=b+c
+    print(output)
+elif(a==2):
+    b=int(input())
+    c=int(input())
+    output=b-c 
+    print(output) 
+elif(a==3):
+    b=int(input())
+    c=int(input())
+    output=b*c 
+    print(output)    
+elif(a==4):
+    b=int(input())
+    c=int(input())
+    output=b/c
+    print(output)
+elif(a==5):
+    b=int(input())
+    c=int(input())
+    output=b%c
+    print(output)
+elif(a==6):
+     exit
+else:
+    print("Invalid Operation")          
